@@ -9,19 +9,15 @@ module.exports = function (options = {}, varModules = {
   backgroundSize: 'bg',
   borderWidth: 'border',
   borderRadius: 'rounded',
-  width: 'w',
-  height: 'h',
   minWidth: 'min-w',
   minHeight: 'min-h',
   maxWidth: 'max-w',
   maxHeight: 'max-h',
-  // padding: 'p',
-  // margin: 'm',
   boxShadow: 'shadows',
   zIndex: 'z',
   opacity: 'opacity',
-  // screens: '',
-  // fontWeight: 'font',
+  // screens: 'screens',
+  fontWeight: 'font',
 }) {
   const root = {}
   const mergedConfig = merge(tailwindDefault, options)
