@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin')
-const genVarsConfig = require('./gen-config')
+const useVars = require('./use-vars')
 
-const {root, varsConfig} = genVarsConfig({
+const {root, varsConfig} = useVars({
   colors: {
     gray: {
       100: '#f8f8f8',
